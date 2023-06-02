@@ -1,13 +1,13 @@
-import { TokenMetadata } from '../features/tokens/types';
+import { WarpTokenConfig } from '../features/tokens/types';
 
-export const tokenList: TokenMetadata[] = [
+export const tokenList: WarpTokenConfig = [
   // Example collateral token
   {
     "chainId": 80001,
     "name": "MOCKUSD",
     "symbol": "USDC",
     "decimals": 18,
-    // "type": "collateral",
+    "type": "collateral",
     "address": "0x4D86353d21Ae2898c868C579E81fc64e004ca1ca",
     "hypCollateralAddress": "0x9d79D60D036d000a460022dc0Bae4BcB9993623E"
   },
