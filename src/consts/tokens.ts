@@ -1,4 +1,4 @@
-import { TokenMetadata, WarpTokenConfig } from '../features/tokens/types';
+import { TokenMetadata } from '../features/tokens/types';
 
 export const tokenList: TokenMetadata[] = [
   // Example collateral token
